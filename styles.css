@@ -39,11 +39,13 @@ header nav ul li a {
     border: 1px solid black;
     margin: 5px;
     padding: 5px;
+    width: 120px;
 }
 
 header nav ul li a:hover {
     font-weight: bold;
     color: black;
+    background: white;
 }
 
 .section {

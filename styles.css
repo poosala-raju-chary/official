@@ -33,6 +33,7 @@ header nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
+    border: 1px solid black;
 }
 
 header nav ul li a:hover {
@@ -71,11 +72,7 @@ footer {
     padding: 20px;
     background: rgba(0, 0, 0, 0.5);
 }
-nav
-{
-    border:1px solid black;
-    
-}
+
 /* Animations */
 .fade-in {
     animation: fadeIn 1s ease-in-out;

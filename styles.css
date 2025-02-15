@@ -21,31 +21,22 @@ header .logo {
 }
 
 header nav ul {
-    position: absolute;
     list-style: none;
     display: flex;
 }
 
 header nav ul li {
     margin-left: 20px;
-    border: 1px solid green;
-    width: 200px;
 }
 
 header nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
-    border: 1px solid black;
-    margin: 5px;
-    padding: 5px;
-    width: 120px;
 }
 
 header nav ul li a:hover {
-    font-weight: bold;
-    color: black;
-    background: red;
+    text-decoration: underline;
 }
 
 .section {
@@ -80,7 +71,6 @@ footer {
     padding: 20px;
     background: rgba(0, 0, 0, 0.5);
 }
-
 /* Animations */
 .fade-in {
     animation: fadeIn 1s ease-in-out;

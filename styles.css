@@ -97,3 +97,9 @@ footer {
         opacity: 1;
     }
 }
+@keyframes colorAnimation{
+    0%{color: yellow;}
+    50%{color: green;}
+    75%{color: white;}
+    100%{color: yellow;}
+}

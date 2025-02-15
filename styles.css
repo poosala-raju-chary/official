@@ -47,7 +47,7 @@ header nav ul li a:hover {
     color: black;
     background: yellow;
     font-weight: bold;
-    transition: 5s background colorAnimation linear;
+    animation: colorAnimation 5s linear;
 }
 
 .section {
@@ -99,8 +99,8 @@ footer {
     }
 }
 @keyframes colorAnimation{
-    0%{color: yellow;}
-    50%{color: green;}
-    75%{color: white;}
-    100%{color: yellow;}
+    0%{background: yellow;}
+    50%{background: green;}
+    75%{background: white;}
+    100%{background: yellow;}
 }

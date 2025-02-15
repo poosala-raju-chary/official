@@ -28,6 +28,8 @@ header nav ul {
 
 header nav ul li {
     margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 header nav ul li a {

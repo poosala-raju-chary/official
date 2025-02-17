@@ -104,6 +104,33 @@ footer {
    color: black;
    text-decoration: underline;
 }
+#home ul{
+   position: absolute;
+   top:250px;
+   left: 450px;
+}
+#home ul li{
+   
+   padding: 5px;
+   margin: 10px;
+   color: black;
+   top: 200px;
+   font-famiy: verdana;
+   font-weight: bold;
+   font-style: italic;
+   border:2px solid red;
+   border-bottom: none;
+   border-radius: 15px;
+   box-shadow: 2px -2px 2px rgba(1, 1, 1,0.5);
+}
+
+#home img{
+   position: relative;
+   left: -350px;
+   border: 5px solid white;
+   border-radius: 15px;
+   box-shadow: 2px -2px 2px rgba(1, 1, 1,0.5);
+}
 @keyframes fadeIn {
     0% {
         opacity: 0;

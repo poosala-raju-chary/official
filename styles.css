@@ -236,7 +236,7 @@ marquee
    box-shadow: 0px 0px 10px white;
    cursor: pointer;
    transform: Scale(1.2);
-   transition: transform 1s linear;
+   transition: transform 0.3s linear;
 }
 #whatsapp{
    position: absolute;

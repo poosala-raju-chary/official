@@ -48,17 +48,17 @@ header nav ul li a::after {
     left:20px;
     top:30px;
     background:red;
-    width: 00%;
+    width: 0%;
     height: 5px;
 }
 header nav ul li a::after:hover {
-    
+    content: '';
     position: absolute;
     left:20px;
     top:30px;
     background:red;
     width: 80%;
-    
+    height: 5px;
 }
 header nav ul li a:hover {
     color: black;

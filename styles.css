@@ -45,7 +45,7 @@ header nav ul li a {
 header nav ul li a::after {
     content: '';
     position: absolute;
-    left:20px;
+    left:10px;
     top:30px;
     background:red;
     width: 0%;
@@ -59,6 +59,7 @@ header nav ul li a:hover::after {
     background:red;
     width: 80%;
     height: 5px;
+    transition: width 0.3s linear;
 }
 header nav ul li a:hover {
     color: black;

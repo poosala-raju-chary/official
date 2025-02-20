@@ -235,8 +235,8 @@ marquee
 #fb:hover{
    box-shadow: 0px 0px 10px white;
    cursor: pointer;
-   transform: Scale(1.5);
-   transition: transform 2s linear;
+   transform: Scale(1.2);
+   transition: transform 1s linear;
 }
 #whatsapp{
    position: absolute;

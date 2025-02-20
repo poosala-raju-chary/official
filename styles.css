@@ -47,7 +47,7 @@ header nav ul li a:hover {
     color: black;
     background: yellow;
     font-weight: bold;
-    translate: Scale(1.1);
+    
     translate: Skew(45deg);
     transition: Scale 2s linear;
     animation: colorAnimation 5s linear;

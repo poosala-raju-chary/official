@@ -45,10 +45,10 @@ header nav ul li a {
 header nav ul li a::after {
     content: '';
     position: absolute;
-    left:-10px;
+    left:0px;
     top:30px;
     background:red;
-    width: 100%;
+    width: 80%;
     height: 5px;
 }
 header nav ul li a:hover {

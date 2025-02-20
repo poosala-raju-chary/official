@@ -178,6 +178,7 @@ marquee
    padding-left: 2px;
    cursor: pointer;
    background:black;
+   transition: background 0.3s linear;
 }
 
 #yt a{
@@ -189,14 +190,17 @@ marquee
    padding-top:5px;
    padding-bottom:5px;
    margin-left:-15px;
+   
 }
 #yt:hover{
    background:yellow;
    color: black;
    border:2px double black;
+   transition: background 0.3s linear;
 }
  #yt a:hover{
    color:black;
+   transition: color 0.3s linear;
 }
 #yt-link input{
    border:2px solid red;

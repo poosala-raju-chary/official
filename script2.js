@@ -16,7 +16,7 @@ const drops = Array.from({ length: columns }, () => 1);
 
 function draw() {
   // Black background with slight opacity for fade effect
-  ctx.fillStyle = 'black';
+  ctx.fillStyle = 'rgb(0,0,0)';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   ctx.fillStyle = '#013220'; // Green text

@@ -1,21 +1,35 @@
-$(document).ready(function() {
-    // Button animation for Contact page
-    $('#contact-btn').click(function() {
-        $(this).animate({
-            fontSize: '1.5rem',
-            padding: '20px 40px'
-        }, 200).animate({
-            fontSize: '1rem',
-            padding: '15px 30px'
-        }, 200);
+$(document).ready(function () {
+    $(".navbar a").hover(function () {
+      $(this).css("text-shadow", "2px 2px 5px rgba(0,0,0,0.3)");
+    }, function () {
+      $(this).css("text-shadow", "none");
     });
-
-    // Section fade-in effect on scroll
-    $(window).on('scroll', function() {
-        $('.section').each(function() {
-            if ($(this).offset().top - $(window).scrollTop() < 400) {
-                $(this).addClass('fade-in');
-            }
-        });
+  
+    $(".social-icons a").click(function (e) {
+      //e.preventDefault();
+      $(this).attr("href");
     });
-});
+    $(".navbar a").hover(
+        function()
+        {
+            $(this).addClass('menu_hover');
+        },
+        function()
+        {
+            $(this).removeClass('menu_hover');
+        }
+    
+    );
+    $(".social-icons a").hover(
+        function()
+        {
+            $(this).addClass('social-media');
+        },
+        function()
+        {
+            $(this).removeClass('social-media');
+        }
+    
+    );
+  });
+  

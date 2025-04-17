@@ -1,63 +1,49 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Software Developer Profile</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
-    
-    <header>
-        
-        <div class="logo">My Portfolio </div>
-        
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="https://sites.google.com/view/poosalaraju-chary/home">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="home" class="section">
-        <div id="yt" title="Poosala Raju Chary"><a target="_blank" href="https://www.youtube.com/@poosalarajuchary?sub_confirmation=1">On Youtube<span class="yt-logo"></span></a> </div>
-        <span id="yt-link"><input type="text" value="https://www.youtube.com/@poosalarajuchary"></input></span>
-        <span id="logo-container" style="position:relative;top:-40px;">
-          <span id="fb" class="fb-logo"><a target="_blank" href="https://www.facebook.com/poosala.raju.3"></a></span>
-          <span id="whatsapp" class="whatsapp-logo"></span>
-        </span>
-        <div class="content">
-            <h1>Welcome to My Portfolio</h1>
-            <img src="profile_pic.jpg" width="300px" height="250px"/>
-            <p><<< I am Poosala Raju Chary, trained .Net software developer! >>></p>
-  
-        </div>
-        <ul style="text-align:left;" type="none">
-            <li>Name: Poosala Raju Chary</li>
-            <li>Father's Name: Late Poosala Mohan</li>
-            <li>Gender: Male</li>
-            <li>Religion: Hindu</li>
-            <li>Age: 35 yrs old </li>
-            <li>Profession: Software Developer, Website Designer, Free lancer, Digital Marketer</li>
-        </u>
-        <span style="position:absolute;left:0px;margin-top:50px">
-            <p>Profile Page</p>
-            <a href="profile.html" style="position:absolute;margin-top:-45px;margin-left:100px;width:120px;text-decoration:none;font-weight:bold;color:black;height:auto;border:1px solid black;background:yellow;padding:10px;border-radius:10px;" target="_blank">visit here...</a><br/>
-            <span>Projects:</span><span><a style="color:black; border:1px solid black;text-decoration:none;border-radius:10px; box-shadow:1px 1px 5px black;padding:5px;background:white;" href="background-remove.html">Background-Remove</a></span>
-            
-        </span>
-    </section>
-
-    <footer>
-        <marquee><p>***   Official website of Poosala Raju Chary   ***	***   Official website of Poosala Raju Chary   ***	***   Official website of Poosala Raju Chary   ***	***   Official website of Poosala Raju Chary   ***	***   Official website of Poosala Raju Chary   ***</p></marquee>
-        <p>© 2025 My Portfolio | All Rights Reserved</p>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="https://sites.google.com/view/poosalaraju-chary/home">Google Site Page</a></li>
+      <li><a href="profile.html">Portfolio</a></li>
+      <li type="none" style="overflow: none;"><a href="#">Projects</a>
+        <ul>
+            <li><a href="background-remove.html">Background Remover</a></li>
+        </ul>
         
-    </footer>
+      </li>
+    </ul>
+  </nav>
 
-    <script src="scripts.js"></script>
+  <section class="profile-container">
+    <h1 style="font-weight: bold;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Software Developer </h1>
+    <div class="profile-box">
+      <p><strong>Name:</strong> Poosala Raju</p>
+      <p><strong>Father's Name:</strong> Late. Poosala Mohan</p>
+      <p><strong>Sex:</strong> Male</p>
+      <p><strong>Age:</strong> 35</p>
+      <p><strong>Religion:</strong> Hindu</p>
+      <p><strong>Nationality:</strong> Indian</p>
+      <p><strong>Educational Qualification:</strong> B.Sc in Computer Science</p>
+    </div>
+
+    <div class="social-icons">
+      <a href="https://www.facebook.com/poosala.raju.3"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.youtube.com/@poosalarajuchary?sub_confirmation=1"><i class="fab fa-youtube"></i></a>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="scripts.js"></script>
 </body>
 </html>

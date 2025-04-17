@@ -70,6 +70,9 @@
     -o-background-position: right;
     -moz-background-position: right;
     background-size: 30% 50%;
+    -moz-background-size: 30% 50%;
+    -webkit-background-size: 30% 50%;
+    -o-background-size: 30% 50%;
     background-repeat: no-repeat;
   }
   

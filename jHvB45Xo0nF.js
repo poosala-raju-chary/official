@@ -1,52 +1,69 @@
-// Function to handle background removal (basic placeholder functionality)
-function removeBackground() {
-    const uploadedImage = document.getElementById("uploaded-image");
-    if (uploadedImage.src) {
-        // You can integrate your actual background removal logic here
-        alert("Background removal feature is being developed!");
-    } else {
-        alert("Please upload an image first.");
-    }
-}
+const upload = document.getElementById('upload');
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+const removeBgBtn = document.getElementById('removeBgBtn');
+let image = new Image();
+let imageDataURL = '';
+let currentBackground = null;
 
-// Function to handle image upload
-document.getElementById("image-upload").addEventListener("change", function(event) {
-    const file = event.target.files[0];
-    const reader = new FileReader();
-
-    reader.onload = function(e) {
-        const uploadedImage = document.getElementById("uploaded-image");
-        uploadedImage.src = e.target.result;
+upload.addEventListener('change', (e) => {
+  const file = e.target.files[0];
+  const reader = new FileReader();
+  reader.onload = function(event) {
+    image.onload = function() {
+      canvas.width = image.width;
+      canvas.height = image.height;
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.drawImage(image, 0, 0);
+      imageDataURL = event.target.result;
     };
+    image.src = event.target.result;
+  };
+  if (file) reader.readAsDataURL(file);
+});
 
-    if (file) {
-        reader.readAsDataURL(file);
+removeBgBtn.addEventListener('click', () => {
+  // Simulated background remover: turns white pixels transparent
+  const imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+  const data = imgData.data;
+  for (let i = 0; i < data.length; i += 4) {
+    if (data[i] > 200 && data[i + 1] > 200 && data[i + 2] > 200) {
+      data[i + 3] = 0; // make transparent
     }
+  }
+  ctx.putImageData(imgData, 0, 0);
+  drawWithBackground();
 });
 
-// Function to handle color picker input
-document.getElementById("color-picker").addEventListener("input", function(event) {
-    document.body.style.backgroundColor = event.target.value;
+document.querySelectorAll('.bg-thumb').forEach(img => {
+  img.addEventListener('click', () => {
+    currentBackground = img.src;
+    drawWithBackground();
+  });
 });
-// 
-const creatorName = "Poosala Raju Chary";
 
-// Function to handle the image download
-function downloadImage() {
-    const uploadedImage = document.getElementById("uploaded-image");
-    const canvas = document.createElement("canvas");
-    const ctx = canvas.getContext("2d");
-
-    canvas.width = uploadedImage.width;
-    canvas.height = uploadedImage.height;
-
-    ctx.drawImage(uploadedImage, 0, 0);
-    
-    // Convert the canvas to PNG and trigger the download
-    const link = document.createElement("a");
-    link.download = "background_removed.png";
-    link.href = canvas.toDataURL("image/png");
-    link.click();
+function drawWithBackground() {
+  const tempImage = new Image();
+  tempImage.src = imageDataURL;
+  tempImage.onload = () => {
+    if (currentBackground) {
+      const bg = new Image();
+      bg.src = currentBackground;
+      bg.onload = () => {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.drawImage(bg, 0, 0, canvas.width, canvas.height);
+        ctx.drawImage(tempImage, 0, 0, canvas.width, canvas.height);
+      };
+    } else {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.drawImage(tempImage, 0, 0, canvas.width, canvas.height);
+    }
+  };
 }
 
-
+function downloadImage(format) {
+  const link = document.createElement('a');
+  link.download = `edited-image.${format}`;
+  link.href = canvas.toDataURL(`image/${format}`);
+  link.click();
+}

@@ -107,7 +107,7 @@
   {
     border: 1px solid black;
     border-radius: 5px;
-    box-shadow: 5px 5px 0px #5d4037;
+    box-shadow: 5px 5px 0px black;
     color:black;
     
   }
@@ -115,7 +115,7 @@
   {
     border: 1px solid black;
     border-radius: 5px;
-    box-shadow: 2px 2px 0px #5d4037;
+    box-shadow: 2px 2px 0px black;
     color:black;
     
   }

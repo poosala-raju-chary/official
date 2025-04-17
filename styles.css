@@ -38,9 +38,7 @@
     padding: 2px;
     padding-left: 5px;
     padding-right: 5px;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    box-shadow: 5px 5px 0px transparent;
+    
   }
   
   .navbar a:hover {

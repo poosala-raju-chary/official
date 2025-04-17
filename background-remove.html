@@ -1,60 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Remove image backgrounds with ease. Customize the page background and download images in PNG format.">
-    <meta name="keywords" content="background remover, image editor, PNG, color picker, remove background">
-    <meta name="author" content="Your Name">
-    <meta name="robots" content="index, follow">
-    <title>Background Remover</title>
-    <link rel="stylesheet" href="QnHsEr452.css">
-    <link rel="icon" href="images/favicon.ico">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Remove and replace image backgrounds online. Add custom backgrounds and download in PNG or JPEG.">
+  <meta name="keywords" content="background remover, image editing, png, jpeg, online tool">
+  <meta name="author" content="youremail@example.com">
+  <title>Background Remover</title>
+  <link rel="stylesheet" href="QnHsEr452.css" />
+  <script src="jHvB45Xo0nF.js" defer></script>
 </head>
-<body oncontextmenu="return false" onselectstart="return false">>
-
-<header>
+<body oncontextmenu="return false" onselectstart="return false">
+  <header>
     <h1>Background Remover</h1>
-</header>
+  </header>
 
-<main>
-    <div class="content">
-        <h2>Remove Background and Customize Image</h2>
+  <main>
+    <section class="editor">
+      <input type="file" id="upload" accept="image/*" />
+      <button id="removeBgBtn">Remove Background</button>
+      <canvas id="canvas" width="500" height="500"></canvas>
 
-        <!-- Image upload input -->
-        <input type="file" id="image-upload" accept="image/*">
-        
-        <!-- Button for background remover -->
-        <button class="background-remover-btn" onclick="removeBackground()">Remove Background</button>
-
-        <!-- Color Picker -->
-        <input type="color" class="color-picker" id="color-picker" title="Pick a background color">
-
-        <!-- Image Display Area -->
-        <div class="image-container">
-            <img id="uploaded-image" src="" alt="Uploaded Image" />
+      <div class="background-options">
+        <p>Select a custom background:</p>
+        <div class="backgrounds">
+          <img src="bg1.jpg" alt="Background 1" class="bg-thumb" />
+          <img src="bg2.jpg" alt="Background 2" class="bg-thumb" />
+          <img src="bg3.jpg" alt="Background 3" class="bg-thumb" />
         </div>
+      </div>
 
-        <!-- Download Button -->
-        <button class="download-btn" onclick="downloadImage()">Download Image (PNG)</button>
-    </div>
+      <div class="download-buttons">
+        <button onclick="downloadImage('png')">Download PNG</button>
+        <button onclick="downloadImage('jpeg')">Download JPEG</button>
+      </div>
+    </section>
 
-    <!-- Advertisement on the right -->
-    <div class="ad-container">
-        <p>Advertisement</p>
-        <!-- Insert your ad content or image here -->
-    </div>
-</main>
+    <aside class="ad-section">
+      <p><strong>Ad:</strong> Try our Premium Background Remover!</p>
+      <img src="ad-placeholder.jpg" alt="Ad" />
+    </aside>
+  </main>
 
-<footer>
-    <div class="footer-content">
-        <p>Creator: <span id="creator-name">Your Name</span></p>
-        <p>Email: <a href="mailto:creator@example.com">creator@example.com</a></p>
-        <p>&copy; 2025 Background Remover. All Rights Reserved.</p>
-        
-    </div>
-</footer>
-
-<script src="jHvB45Xo0nF.js"></script>
+  <footer>
+    <p>&copy; 2025 Background Remover | Created by <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    <img src="qr-support.png" alt="Support Developer QR" class="qr-code" />
+  </footer>
 </body>
 </html>

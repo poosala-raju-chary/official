@@ -1,10 +1,6 @@
 $(document).ready(function () {
     
-    $(".navbar a").hover(function () {
-      $(this).css("text-shadow", "2px 2px 2px rgba(0,0,0,0.3)");
-    }, function () {
-      $(this).css("text-shadow", "none");
-    });
+    
   
     $(".social-icons a").click(function (e) {
       //e.preventDefault();

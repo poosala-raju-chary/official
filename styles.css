@@ -38,11 +38,14 @@
     padding: 2px;
     padding-left: 5px;
     padding-right: 5px;
-    
+    transition: all 0.2s ease;
   }
   
   .navbar a:hover {
-    
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0px black;
+    color:black;
   }
   
   /* Profile Section */

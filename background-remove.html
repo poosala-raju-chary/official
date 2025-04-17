@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Remove image backgrounds with ease. Customize the page background and download images in PNG format.">
+    <meta name="keywords" content="background remover, image editor, PNG, color picker, remove background">
+    <meta name="author" content="Your Name">
+    <meta name="robots" content="index, follow">
+    <title>Background Remover</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+
+<header>
+    <h1>Background Remover</h1>
+</header>
+
+<main>
+    <div class="content">
+        <h2>Remove Background and Customize Image</h2>
+
+        <!-- Image upload input -->
+        <input type="file" id="image-upload" accept="image/*">
+        
+        <!-- Button for background remover -->
+        <button class="background-remover-btn" onclick="removeBackground()">Remove Background</button>
+
+        <!-- Color Picker -->
+        <input type="color" class="color-picker" id="color-picker" title="Pick a background color">
+
+        <!-- Image Display Area -->
+        <div class="image-container">
+            <img id="uploaded-image" src="" alt="Uploaded Image" />
+        </div>
+
+        <!-- Download Button -->
+        <button class="download-btn" onclick="downloadImage()">Download Image (PNG)</button>
+    </div>
+
+    <!-- Advertisement on the right -->
+    <div class="ad-container">
+        <p>Advertisement</p>
+        <!-- Insert your ad content or image here -->
+    </div>
+</main>
+
+<footer>
+    <div class="footer-content">
+        <p>Creator: <span id="creator-name">Your Name</span></p>
+        <p>Email: <a href="mailto:creator@example.com">creator@example.com</a></p>
+        <p>&copy; 2025 Background Remover. All Rights Reserved.</p>
+        <p>Scan to support the developer:</p>
+        <img src="images/qrcode.png" alt="QR Code for Support" class="qr-code">
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

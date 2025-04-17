@@ -1,117 +1,108 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff9f0;
+  color: #333;
 }
 
 header {
-    background-color: #ffcc99; /* Light Orange */
-    text-align: center;
-    padding: 20px;
-}
-
-header h1 {
-    color: #333;
-    font-size: 2em;
+  background-color: #ffcc99;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: #5a3e2b;
 }
 
 main {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  justify-content: space-between;
 }
 
-.content {
-    width: 70%;
+.editor {
+  flex: 1;
+  min-width: 320px;
+  max-width: 700px;
 }
 
-.ad-container {
-    width: 25%;
-    padding: 20px;
-    background-color: #e7e7e7;
-    text-align: center;
-    margin-left: 20px;
+input[type="file"], button {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  font-size: 1rem;
 }
 
-.ad-container p {
-    font-size: 1.2em;
-    margin-bottom: 10px;
+button {
+  background-color: #ff9966;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
 }
 
-input[type="file"], .background-remover-btn, .download-btn {
-    display: block;
-    margin: 10px auto;
-    padding: 10px;
-    background-color: #ffcc99;
-    border: none;
-    cursor: pointer;
-    font-size: 1.2em;
-    width: 100%;
-    max-width: 300px;
+button:hover {
+  background-color: #ff884d;
 }
 
-input[type="color"] {
-    display: block;
-    margin: 20px auto;
+canvas {
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  margin-top: 1rem;
 }
 
-.image-container {
-    text-align: center;
-    margin: 20px 0;
+.background-options {
+  margin: 1rem 0;
 }
 
-#uploaded-image {
-    max-width: 100%;
-    height: auto;
+.backgrounds {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.bg-thumb {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.bg-thumb:hover {
+  border-color: #ff9966;
+}
+
+.download-buttons button {
+  margin-right: 1rem;
+}
+
+.ad-section {
+  width: 250px;
+  padding: 1rem;
+  background-color: #fff0e6;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.ad-section img {
+  width: 100%;
+  margin-top: 1rem;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  background-color: #ffe6cc;
+  padding: 1rem;
+  font-size: 0.9rem;
 }
 
 footer a {
-    color: #fff;
-    text-decoration: none;
+  color: #d2691e;
 }
 
-footer img.qr-code {
-    width: 100px;
-    height: 100px;
-    margin-top: 10px;
-}
-
-footer .footer-content p {
-    margin: 10px 0;
-}
-
-/* Mobile responsiveness */
-@media (max-width: 600px) {
-    header h1 {
-        font-size: 1.5em;
-    }
-
-    main {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .ad-container {
-        width: 100%;
-        margin-top: 20px;
-    }
-
-    input[type="file"], .background-remover-btn, .download-btn {
-        width: 100%;
-    }
+.qr-code {
+  width: 100px;
+  margin-top: 0.5rem;
 }

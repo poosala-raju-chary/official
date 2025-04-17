@@ -67,6 +67,7 @@
     background-image: url('profile_pic.jpg');
     background-position: right;
     background-size: 100px 100px;
+    background-repeat: no-repeat;
   }
   
   .profile-box p {

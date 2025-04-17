@@ -3,14 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Remove and replace image backgrounds online. Add custom backgrounds and download in PNG or JPEG.">
-  <meta name="keywords" content="background remover, image editing, png, jpeg, online tool">
+  <meta name="description" content="Remove and replace image backgrounds using a custom color picker. Download edited images in PNG or JPEG.">
+  <meta name="keywords" content="background remover, image editing, png, jpeg, color picker, photo editor">
   <meta name="author" content="youremail@example.com">
   <title>Background Remover</title>
-  <link rel="stylesheet" href="QnHsEr452.css" />
-  <script src="jHvB45Xo0nF.js" defer></script>
+  
 </head>
-<body oncontextmenu="return false" onselectstart="return false">
+<body>
   <header>
     <h1>Background Remover</h1>
   </header>
@@ -18,6 +17,10 @@
   <main>
     <section class="editor">
       <input type="file" id="upload" accept="image/*" />
+      <label>
+        Pick background color to remove:
+        <input type="color" id="colorPicker" />
+      </label>
       <button id="removeBgBtn">Remove Background</button>
       <canvas id="canvas" width="500" height="500"></canvas>
 
@@ -35,13 +38,15 @@
         <button onclick="downloadImage('jpeg')">Download JPEG</button>
       </div>
     </section>
-<script src="script.min.js"</script>
+
     <aside class="ad-section">
-      <p><strong>Ad:</strong> Try our Premium Background Remover!</p>
+      <p><strong>Ad:</strong><br>Try Pro Background Remover!</p>
       <img src="ad-placeholder.jpg" alt="Ad" />
     </aside>
   </main>
-
+<link rel="stylesheet" href="QnHsEr452.css" />
+ <script src="jHvB45Xo0nF.js" defer></script>
+<script src="script.min.js"></script>
   <footer>
     <p>&copy; 2025 Background Remover | Created by <a href="mailto:youremail@example.com">youremail@example.com</a></p>
     <img src="qr-support.png" alt="Support Developer QR" class="qr-code" />

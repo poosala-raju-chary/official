@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #fff9f0;
+  background-color: #fff8ef;
   color: #333;
 }
 
@@ -9,7 +9,6 @@ header {
   background-color: #ffcc99;
   text-align: center;
   padding: 1rem;
-  font-size: 1.5rem;
   color: #5a3e2b;
 }
 
@@ -26,7 +25,9 @@ main {
   max-width: 700px;
 }
 
-input[type="file"], button {
+input[type="file"],
+input[type="color"],
+button {
   margin: 0.5rem 0;
   padding: 0.5rem;
   font-size: 1rem;

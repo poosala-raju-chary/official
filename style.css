@@ -38,7 +38,7 @@ position:absolute;
   position: absolute;
   width: 70%;
   height:70%;
-  background-size: 60% 60%, cover;
+  background-size: 80% 80%, cover;
   background-position: center;
   transition: transform 1s ease, opacity 1s ease;
   opacity: 0;

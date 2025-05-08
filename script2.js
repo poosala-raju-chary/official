@@ -19,7 +19,7 @@ function draw() {
   ctx.fillStyle = '#006400';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-  ctx.fillStyle = '#013220'; // Green text
+  ctx.fillStyle = '#f7f5bc'; // Green text
   ctx.font = `${fontSize}px monospace`;
 
   for (let i = 0; i < drops.length; i++) {

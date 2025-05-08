@@ -8,7 +8,7 @@ canvas.width = window.innerWidth;
 // Characters - binary, katakana, or alphanumerics
 const chars = 'アァイイウエカキクケコサシスセソタチツトナニヌネノハヒフヘホABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 
-const fontSize = 5;
+const fontSize = 10;
 const columns = canvas.width / fontSize;
 
 // Array of drops - one per column

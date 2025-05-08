@@ -46,6 +46,7 @@ position:absolute;
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  border: 1px solid black;
 }
 
 .slide.active {

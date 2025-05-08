@@ -36,9 +36,9 @@ position:absolute;
 
 .slide {
   position: absolute;
-  width: 50%;
-  height:50%;
-  background-size: cover;
+  width: 70%;
+  height:70%;
+  background-size: 50% 50%, cover;
   background-position: center;
   transition: transform 1s ease, opacity 1s ease;
   opacity: 0;

@@ -73,9 +73,9 @@
     -o-background-position: right;
     -moz-background-position: right;
     background-size: 40% 50%;
-    -moz-background-size: 60% 50%;
-    -webkit-background-size: 60% 50%;
-    -o-background-size: 60% 50%;
+    -moz-background-size: 40% 50%;
+    -webkit-background-size: 40% 50%;
+    -o-background-size: 40% 50%;
     background-repeat: no-repeat;
   }
   

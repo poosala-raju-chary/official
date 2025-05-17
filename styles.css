@@ -13,7 +13,7 @@
   
   /* Navbar */
   .navbar {
-    background: linear-gradient(135deg, #B21807, #000);
+    background: linear-gradient(135deg, #B21807, #000,90deg);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transform: perspective(800px) rotateX(0deg);
   }

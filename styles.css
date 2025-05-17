@@ -117,4 +117,8 @@
     color:black;
     
   }
+#projects>ul>li>a
+{
+    font-size: 9pt;
+}
   

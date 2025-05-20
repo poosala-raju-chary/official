@@ -8,6 +8,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <script src="jquery-3.7.1.min.js"></script>
   <script src="12345.js"></script>
+  <script>
+    fetch('counter.php')
+      .then(response => response.text())
+      .then(count => {
+        document.getElementById('counter').textContent = count;
+      });
+  </script>
 </head>
 <body oncontextmenu="return false" onselectstart="return false">
 

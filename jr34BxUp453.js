@@ -1,6 +1,6 @@
 $(document).ready(function(){
-  $("*").hide();
+  $(body).hide();
   $("#loader").show().sleep(5000);
-  $("*").show(function(){$("#loader").hide();alert('Page loaded Successfully');});
+  $(body).show(function(){$("#loader").hide();alert('Page loaded Successfully');});
   
 });

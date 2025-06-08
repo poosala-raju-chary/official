@@ -1,10 +1,10 @@
 $(document).ready(function () {
-            $('body > :not(#loader)').hide(); // Hide all direct children except #loader
+            $('body > :not(#loader)').hide();
 
-            // After 5 seconds, hide loader and show the rest
-            setTimeout(function () {
+                setTimeout(function () {
                 $('#loader').fadeOut('slow', function () {
                     $('body > :not(#loader)').fadeIn('slow');
                 });
             }, 5000);
+            alert("test");
         });

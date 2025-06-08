@@ -5,6 +5,6 @@ $(document).ready(function () {
                 $('#loader').fadeOut('slow', function () {
                     $('body > :not(#loader)').fadeIn('slow');
                 });
-            }, 5000);
+            }, 15000);
             alert("test");
         });

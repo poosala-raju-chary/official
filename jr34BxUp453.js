@@ -6,5 +6,5 @@ $(document).ready(function () {
                     $('body > :not(#loader)').fadeIn('slow');
                 });
             }, 1000);
-            alert("test");
+            //alert("test");
         });

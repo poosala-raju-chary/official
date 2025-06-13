@@ -17,6 +17,7 @@
     background: linear-gradient(0deg, #B21807, #EB5406);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transform: perspective(800px) rotateX(0deg);
+    top: 0px;
   }
   
   .navbar ul {

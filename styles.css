@@ -51,7 +51,7 @@
     text-shadow: 0px 0px 2px white;
     color:black;
     background-color: rgba(255,255,255,0.7);
-    animation: ZoomOut 3s linear ease;
+    animation: ZoomOut 3s ease infinite;
   }
   
   /* Profile Section */

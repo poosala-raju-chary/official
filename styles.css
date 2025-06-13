@@ -51,6 +51,7 @@
     text-shadow: 0px 0px 2px white;
     color:black;
     background-color: rgba(255,255,255,0.7);
+    animation: ZoomOut 3s linear ease;
   }
   
   /* Profile Section */
@@ -128,5 +129,13 @@
 #projects ul li a
 {
     font-size: 9pt;
+}
+@keyframes ZoomOut
+{
+    0%{font-size:15px;}
+    25%{font-size:18px;}
+    50%{font-size:15px;}
+    75%{font-size:18px;}
+    100%{font-size:15px;}
 }
   

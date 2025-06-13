@@ -134,9 +134,9 @@
 @keyframes colorAnimation
 {
     0%{color:black;border-color:black;}
-    25%{color:red;border-color:black;}
+    25%{color:red;border-color:red;}
     50%{color:black;border-color:black;}
-    75%{color:red;border-color:black;}
+    75%{color:red;border-color:red;}
     100%{color:black;border-color:black;}
 }
   

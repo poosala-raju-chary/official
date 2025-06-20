@@ -91,7 +91,7 @@
     color: #5d4037;
     cursor: pointer;
   }
-  .profile-box p::before{
+  .profile-box p::after{
       content"";
       position: absolute;
       background:red;
@@ -100,7 +100,7 @@
       width:250px;
       
   }
-.profile-box p:hover::before{
+.profile-box p:hover::after{
     
     width:750px;
     border: 1px solid black;

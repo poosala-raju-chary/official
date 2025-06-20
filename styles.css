@@ -90,7 +90,13 @@
     margin: 10px 0;
     color: #5d4037;
   }
-  
+  .profile-box p strong::after{
+      content:'';
+      background:red;
+      border: 1px solid black;
+      border-radius:0px 5px 0px 5px;
+      width:50px;
+  }
   /* Social Media Icons */
   .social-icons {
     margin-top: 30px;

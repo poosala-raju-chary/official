@@ -1,8 +1,48 @@
 #loader{position:absolute;width:100%;height:100%;border: 1px solid black;background:white;z-index: 999;margin-top:0px;margin-left:0px;}
 #loader_caption{font-weight: bold;}
 #progress_bar_border{position:absolute;border: 1px solid black; width:200px;height: 30px;}
-#progress_bar{position:absolute;width:30px;height: 28px;background: orange;animation: loading 3s ease infinite alternate both;transform: scale(1,1);transform-origin: center;}
+#progress_bar{position:absolute;width:30px;height: 28px;}
 
+#progress_bar span{width:30px;height:50;background:orange;transform-origin:center;transform: scale(1,1);}
+
+#progress_bar:nth-child(0)
+{
+  animation: loading 3s ease infinite alternate both;
+}
+#progress_bar:nth-child(1)
+{
+  animation: loading 3s ease infinite alternate both;
+  animation-delay:2s;
+}
+#progress_bar:nth-child(2)
+{
+  animation: loading 3s ease infinite alternate both;
+  animation-delay:1s;
+}
+#progress_bar:nth-child(3)
+{
+  animation: loading 3s ease infinite alternate both;
+  animation-delay:4s;
+}
+#progress_bar:nth-child(4)
+{
+  animation: loading 3s ease infinite alternate both;
+}
+#progress_bar:nth-child(5)
+{
+  animation: loading 3s ease infinite alternate both;
+  animation-delay:2s;
+}
+#progress_bar:nth-child(6)
+{
+  animation: loading 3s ease infinite alternate both;
+  animation-delay:3s;
+}
+#progress_bar:nth-child(7)
+{
+  animation: loading 3s ease infinite alternate both;
+  animation-delay:1s;
+}
 @keyframes loading
 {
   0%{transform: scale(1,2);}

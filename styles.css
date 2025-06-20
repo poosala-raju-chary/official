@@ -92,7 +92,7 @@
     cursor: pointer;
   }
   .profile-box p::before{
-      content:'';
+      content:' ';
       background:orange;
       border: 1px solid transparent;
       border-radius:0px 5px 0px 5px;

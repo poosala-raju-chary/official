@@ -5,40 +5,40 @@
 
 #progress_bar span{position:absolute;width:20px;height:50;background:orange;transform-origin:center;transform: scale(1,1);}
 
-#progress_bar:nth-child(0)
+#progress_bar span:nth-child(0)
 {
   animation: loading 3s ease infinite alternate both;
 }
-#progress_bar:nth-child(1)
+#progress_bar span:nth-child(1)
 {
   animation: loading 3s ease infinite alternate both;
   animation-delay:2s;
 }
-#progress_bar:nth-child(2)
+#progress_bar span:nth-child(2)
 {
   animation: loading 3s ease infinite alternate both;
   animation-delay:1s;
 }
-#progress_bar:nth-child(3)
+#progress_bar span:nth-child(3)
 {
   animation: loading 3s ease infinite alternate both;
   animation-delay:4s;
 }
-#progress_bar:nth-child(4)
+#progress_bar span:nth-child(4)
 {
   animation: loading 3s ease infinite alternate both;
 }
-#progress_bar:nth-child(5)
+#progress_bar span:nth-child(5)
 {
   animation: loading 3s ease infinite alternate both;
   animation-delay:2s;
 }
-#progress_bar:nth-child(6)
+#progress_bar span:nth-child(6)
 {
   animation: loading 3s ease infinite alternate both;
   animation-delay:3s;
 }
-#progress_bar:nth-child(7)
+#progress_bar span:nth-child(7)
 {
   animation: loading 3s ease infinite alternate both;
   animation-delay:1s;

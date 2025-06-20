@@ -14,7 +14,7 @@ $(document).ready(function () {
         });
 $(window).on('load', function () {
             
-      $('#loader').fadeOut(5000, function () {
-        $('#content').fadeIn(7000);
+      $('#loader').hide(5000, function () {
+        $('#content').show(7000);
       });
     });

@@ -1,15 +1,15 @@
 #loader{position:absolute;width:100%;height:100%;border: 1px solid black;background:white;z-index: 999;margin-top:0px;margin-left:0px;}
 #loader_caption{font-weight: bold;}
 #progress_bar_border{position:absolute;border: 1px solid black; width:200px;height: 30px;}
-#progress_bar{position:absolute;width:30px;height: 28px;background: orange;animation: loading 3s ease infinite alternate both;}
+#progress_bar{position:absolute;width:30px;height: 28px;background: orange;animation: loading 3s ease infinite alternate both;transform: scale(1,1);transform-origin: center;}
 
 @keyframes loading
 {
-  0%{height:50px;}
-  20%{height:20px;}
-  40%{height:90px;}
-  60%{height:30px;}
-  80%{height:100px;}
-  100%{height:50px;}
+  0%{transform: scale(1,2);}
+  20%{transform: scale(1,1);}
+  40%{transform: scale(1,4);}
+  60%{transform: scale(1,1);}
+  80%{transform: scale(1,3);}
+  100%{transform: scale(1,2);}
   
 }

@@ -4,7 +4,7 @@
 #progress_bar_border{position:absolute;border: 1px solid red;height:auto;weight:auto;margin-left:550px;margin-top:50px;}
 #progress_bar{position:absolute;width:auto;height: auto;}
 
-#progress_bar span{position:absolute;padding:0.1px;border-radius:15px;box-shadow:0px 0px 15px black;width:10px;height:20px;background-color:orange;transform-origin:center;transform: scale(1,1);}
+#progress_bar span{position:absolute;padding:0.1px;border-radius:15px;box-shadow:0px 0px 15px linear-gradient(red, yellow);width:10px;height:20px;background-color:orange;transform-origin:center;transform: scale(1,1);}
 
 #progress_bar span:nth-child(0)
 {

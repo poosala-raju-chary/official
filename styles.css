@@ -74,7 +74,7 @@
     border-radius: 20px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.1);
     text-align: left;
-    background-image: url('profile_pic.jpg');
+    /*background-image: url('profile_pic.jpg');*/
     background-position: right;
     -webkit-background-position: right;
     -o-background-position: right;
@@ -82,7 +82,7 @@
     background-size: 30% 60%;
     background-repeat: no-repeat;
     border-radius:50%;
-    border: 5px sssoli white;
+    border: 5px solid white;
   }
   
   .profile-box p {

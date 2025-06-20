@@ -1,45 +1,54 @@
-#loader{position:absolute;width:1500px;height:1000px;border: 1px solid black;background:white;z-index: 999;top:0px;left:0px;}
-#loader_caption{font-weight: bold;}
-#progress_bar_border{position:absolute;border: 1px solid black; width:200px;height: 30px;}
-#progress_bar{position:absolute;width:30px;height: 28px;}
 
-#progress_bar span{position:absolute;width:20px;height:50;background:orange;transform-origin:center;transform: scale(1,1);}
+#loader{position:absolute;width:1500px;height:1000px;border: 1px solid black;background:white;z-index: 999;top:0px;left:0px;overflow:clip;}
+#loader_caption{font-weight: bold;margin-left:-250px;}
+#progress_bar_border{position:absolute;border: 1px solid red;height:auto;weight:auto;margin-left:550px;margin-top:50px;}
+#progress_bar{position:absolute;width:auto;height: auto;}
+
+#progress_bar span{position:absolute;width:10px;height:20px;background-color:orange;transform-origin:center;transform: scale(1,1);}
 
 #progress_bar span:nth-child(0)
 {
+  margin-left:150px;
   animation: loading 3s ease infinite alternate both;
 }
 #progress_bar span:nth-child(1)
 {
-  animation: loading 3s ease infinite alternate both;
+  margin-left:15px;
+  animation: loading 4s ease infinite alternate both;
   animation-delay:2s;
 }
 #progress_bar span:nth-child(2)
 {
+  margin-left:30px;
   animation: loading 3s ease infinite alternate both;
   animation-delay:1s;
 }
 #progress_bar span:nth-child(3)
 {
+  margin-left:45px;
   animation: loading 3s ease infinite alternate both;
   animation-delay:4s;
 }
 #progress_bar span:nth-child(4)
 {
+  margin-left:60px;
   animation: loading 3s ease infinite alternate both;
 }
 #progress_bar span:nth-child(5)
 {
+  margin-left:75px;
   animation: loading 3s ease infinite alternate both;
   animation-delay:2s;
 }
 #progress_bar span:nth-child(6)
 {
+  margin-left:90px;
   animation: loading 3s ease infinite alternate both;
   animation-delay:3s;
 }
 #progress_bar span:nth-child(7)
 {
+  margin-left:105px;
   animation: loading 3s ease infinite alternate both;
   animation-delay:1s;
 }

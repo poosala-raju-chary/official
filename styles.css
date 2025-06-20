@@ -94,7 +94,7 @@
   .profile-box p::before{
       content"";
       position: absolute;
-      background:orange;
+      background:red;
       border: 1px solid transparent;
       border-radius:0px 5px 0px 5px;
       width:250px;

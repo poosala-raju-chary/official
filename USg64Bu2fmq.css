@@ -3,7 +3,7 @@
 #progress_bar_border{position:absolute;border: 1px solid black; width:200px;height: 30px;}
 #progress_bar{position:absolute;width:30px;height: 28px;}
 
-#progress_bar span{width:30px;height:50;background:orange;transform-origin:center;transform: scale(1,1);}
+#progress_bar span{width:20px;height:50;background:orange;transform-origin:center;transform: scale(1,1);}
 
 #progress_bar:nth-child(0)
 {

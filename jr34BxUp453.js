@@ -1,4 +1,4 @@
-$(document).ready(function () {
+/*$(document).ready(function () {
             $('body > :not(#loader)').hide();
 
                 setTimeout(function () {
@@ -7,4 +7,9 @@ $(document).ready(function () {
                 });
             }, 5000);
             //alert("test");
-        });
+        });*/
+$(window).on('load', function () {
+      $('#loader').fadeOut(500, function () {
+        $('#content').fadeIn(500);
+      });
+    });

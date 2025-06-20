@@ -100,7 +100,7 @@
 .profile-box p strong::before:hover{
     width:750px;
     border: 1px solid black;
-    transition: all 2s linear ;
+    transition: all 2s linear ease;
 }
   /* Social Media Icons */
   .social-icons {

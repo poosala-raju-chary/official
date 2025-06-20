@@ -90,13 +90,18 @@
     margin: 10px 0;
     color: #5d4037;
   }
-  .profile-box p strong::after{
+  .profile-box p strong::before{
       content:'';
       background:red;
-      border: 1px solid black;
+      border: 1px solid transparent;
       border-radius:0px 5px 0px 5px;
-      width:50px;
+      width:0px;
   }
+.profile-box p strong::before:hover{
+    width:750px;
+    border: 1px solid black;
+    transition: all 2s linear ;
+}
   /* Social Media Icons */
   .social-icons {
     margin-top: 30px;

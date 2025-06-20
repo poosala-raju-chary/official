@@ -89,7 +89,7 @@
     font-size: 16px;
     margin: 10px 0;
     color: #5d4037;
-    cursor: pointer;
+    cursor: hand;
   }
   .profile-box p::before{
       content:'';

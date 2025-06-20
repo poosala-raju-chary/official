@@ -15,7 +15,7 @@
 {
   margin-left:15px;
   animation: loading 4s ease infinite alternate both;
-  animation-delay:22s;
+  animation-delay:2s;
 }
 #progress_bar span:nth-child(2)
 {

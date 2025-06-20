@@ -92,15 +92,16 @@
     cursor: pointer;
   }
   .profile-box p::before{
-      content:' ';
+      content"";
+      position: absolute;
       background:orange;
       border: 1px solid transparent;
       border-radius:0px 5px 0px 5px;
       width:250px;
       
   }
-.profile-box p::before:hover{
-    content:' ';
+.profile-box p:hover::before{
+    
     width:750px;
     border: 1px solid black;
     transition: all 2s ease;

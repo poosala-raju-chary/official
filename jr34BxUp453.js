@@ -1,3 +1,4 @@
+
 /*$(document).ready(function () {
             $('body > :not(#loader)').hide();
 
@@ -8,8 +9,11 @@
             }, 5000);
             //alert("test");
         });*/
+$(document).ready(function () {
+            $('#content').hide('fast');
+        });
 $(window).on('load', function () {
-      $('#content').hide('fast');      
+            
       $('#loader').fadeOut(5000, function () {
         $('#content').fadeIn(7000);
       });

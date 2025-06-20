@@ -13,8 +13,9 @@ $(document).ready(function () {
             $('#content').hide('fast');
         });
 $(window).on('load', function () {
+      setTimeout(() => {
+  $('#loader').hide(function () {$('#content').show();});
+}, 5000);
             
-      $('#loader').hide(5000, function () {
-        $('#content').show(7000);
-      });
+      
     });

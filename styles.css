@@ -93,7 +93,6 @@
   }
   .profile-box p::after{
       content"";
-      position: absolute;
       background:red;
       border: 1px solid transparent;
       border-radius:0px 5px 0px 5px;

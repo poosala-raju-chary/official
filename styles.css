@@ -89,6 +89,7 @@
     font-size: 16px;
     margin: 10px 0;
     color: #5d4037;
+    cursor: pointer;
   }
   .profile-box p::before{
       content:'';
@@ -96,7 +97,7 @@
       border: 1px solid transparent;
       border-radius:0px 5px 0px 5px;
       width:0px;
-      cursor: pointer;
+      
   }
 .profile-box p::before:hover{
     width:750px;

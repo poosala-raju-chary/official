@@ -79,3 +79,7 @@ nav {
   content: "click for more details";
   color:red;
 }
+#content1, #content2, #content3{
+  border: 1px solid black;
+  border-top: 0px solid black;
+}

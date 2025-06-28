@@ -58,6 +58,7 @@ nav {
   max-width: 600px;
   border-radius: 10px;
   position: relative;
+  line-spacing: 1.5px;
 }
 
 .close-btn {

@@ -60,9 +60,9 @@ nav {
   position: relative;
   
 }
-modal-body
+#modal-body
 {
-  line-spacing: 1.5px;
+  line-height: 1.5px;
 }
 .close-btn {
   position: absolute;

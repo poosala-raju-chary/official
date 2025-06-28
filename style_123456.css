@@ -3,6 +3,8 @@ body {
   margin: 0;
   padding: 0;
   background: url('bg_article.jpg');
+  background-size: 150% 150%;
+  background-repeat: no-repeat;
 }
 
 nav {

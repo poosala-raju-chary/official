@@ -70,3 +70,12 @@ nav {
   font-size: 1.5rem;
   cursor: pointer;
 }
+#title1, #title2, #title3{
+  border: 1px solid black;
+  cursor: pointer;
+  font-weight: bold;
+}
+#title1, #title2, #title3::after{
+  content: "click for more details";
+  color:red;
+}

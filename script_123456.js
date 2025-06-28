@@ -18,4 +18,21 @@ $(document).ready(function() {
       $('#modal').fadeOut();
     }
   });
+$("#content1,#content2,#content3").hide();
+  
+  $("#title1").click(function(){
+    $("#content2,#content3").hide();
+    $("#content1").slideDown();
+  });
+  
+  $("#title2").click(function(){
+    $("#content1,#content3").hide();
+    $("#content2").slideDown();
+  });
+  
+  $("#title3").click(function(){
+    $("#content2,#content1").hide();
+    $("#content3").slideDown();
+  });
+  
 });

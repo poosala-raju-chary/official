@@ -78,6 +78,7 @@ nav {
 #title1, #title2, #title3 div::after{
   content: "click for more details";
   color:red;
+  padding-left: 5px;
 }
 #content1, #content2, #content3{
   border: 1px solid black;

@@ -21,17 +21,17 @@ $(document).ready(function() {
 $("#content1,#content2,#content3").hide();
   
   $("#title1").click(function(){
-    $("#content2,#content3").hide();
+    $("#content2,#content3").slideUp();
     $("#content1").slideDown();
   });
   
   $("#title2").click(function(){
-    $("#content1,#content3").hide();
+    $("#content1,#content3").slideUp();
     $("#content2").slideDown();
   });
   
   $("#title3").click(function(){
-    $("#content2,#content1").hide();
+    $("#content2,#content1").slideUp();
     $("#content3").slideDown();
   });
   

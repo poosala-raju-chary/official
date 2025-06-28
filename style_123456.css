@@ -76,6 +76,7 @@ nav {
   font-weight: bold;
   height: auto;
   margin-top: 10px;
+  background: silver;
 }
 .title::after{
   content: "click for more details";
@@ -89,4 +90,5 @@ nav {
   margin-bottom:10px;
   padding: 10px;
   text-align: left;
+  background: silver;
 }

@@ -15,7 +15,7 @@ $(document).ready(function () {
 $(window).on('load', function () {
       setTimeout(() => {
   $('#loader').hide(function () {$('#content').show();});
-}, 7000);
+}, 1000);
             
       
     });

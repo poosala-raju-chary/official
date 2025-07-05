@@ -70,6 +70,7 @@
   }
   
   .profile-box {
+      position:absolute;
     background: #ffe0b2;
     padding: 25px;
     border-radius: 20px;

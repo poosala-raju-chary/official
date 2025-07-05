@@ -19,6 +19,7 @@
     transform: perspective(800px) rotateX(0deg);
     top: 0px;
     width: 100%;
+      z-index: 999;
   }
   
   .navbar ul {

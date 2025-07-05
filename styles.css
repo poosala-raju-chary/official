@@ -111,8 +111,8 @@
 }
   /* Social Media Icons */
   .social-icons {
-      position: absolute;
-    top: 500px;
+    position: absolute;
+    margin-top: 500px;
   }
   
   .social-icons a {

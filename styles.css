@@ -72,6 +72,7 @@
   
   .profile-box {
       position:absolute;
+      margin-left: 40px;
     background: #ffe0b2;
     padding: 25px;
     border-radius: 20px;

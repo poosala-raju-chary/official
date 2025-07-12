@@ -161,12 +161,13 @@
     100%{color:black;border-color:black;}
 }
     .scene {
-      position: absolute;  
+      position: relative;  
       width: 200px;
       height: 200px;
       perspective: 800px;
       transform: scale(0.5);
-      margin-left: 750px;
+      right: 50px;
+      top: 150px;
     }
 
     .cube {

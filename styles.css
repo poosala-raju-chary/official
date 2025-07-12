@@ -161,6 +161,7 @@
     100%{color:black;border-color:black;}
 }
     .scene {
+      position: absolute;  
       width: 200px;
       height: 200px;
       perspective: 800px;

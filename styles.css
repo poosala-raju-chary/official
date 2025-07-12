@@ -185,11 +185,12 @@
       width: 200px;
       height: 200px;
       background: rgba(255, 255, 255, 0.1);
-      border: 2px solid #fff;
+      border: 2px solid black;
       line-height: 200px;
       font-size: 20px;
       text-align: center;
       text-shadow: 0px 0px 2px white, 0px 0px 10px black;
+      
     }
 
     .front  { transform: translateZ(100px); }

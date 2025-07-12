@@ -178,6 +178,7 @@
       transform: rotateX(0deg) rotateY(0deg);
       animation: rotateXaxis 5s 1 linear;
       animation: rotateYaxis 5s 2s infinite linear;
+      box-shadow: 0px 0px 5px black;  
     }
 
     .cube-face {

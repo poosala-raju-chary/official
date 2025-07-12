@@ -165,6 +165,7 @@
       height: 200px;
       perspective: 800px;
       transform: scale(0.5);
+      margin-left: 350px;
     }
 
     .cube {

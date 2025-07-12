@@ -208,14 +208,14 @@
     
  .facebook
 {
- background-image: url("facebook.png");
+ background-image: url("images/facebook.png");
  background-size: 100% 100%;
  background-color: blue;
 }
 
  .instagram
 {
- background-image: url("insta.png");
+ background-image: url("images/insta.png");
  background-size: 70% 70%;
 background-repeat: no-repeat;
 background-position: center center;
@@ -224,21 +224,21 @@ background-position: center center;
 
  .youtube
 {
- background-image: url("youtube.png");
+ background-image: url("images/youtube.png");
  background-size: 100% 100%;
  background-color: white;
 }
 
  .threads
 {
- background-image: url("threads.jpg");
+ background-image: url("images/threads.jpg");
  background-size: 100% 100%;
  background-color: white;
 }
 
  .x
 {
- background-image: url("x.jpg");
+ background-image: url("images/x.jpg");
  background-size: 100% 100%;
  background-color: white;
 }

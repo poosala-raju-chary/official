@@ -166,8 +166,8 @@
       height: 200px;
       perspective: 800px;
       transform: scale(0.5);
-      margin-right: 50px;
-      top: 250px;
+      margin-left: 850px;
+      top: 550px;
     }
 
     .cube {

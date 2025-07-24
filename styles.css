@@ -168,6 +168,7 @@
       transform: scale(0.5);
       margin-left: 1050px;
       margin-top: 350px;
+      display: none;
     }
 
     .cube {
@@ -179,6 +180,7 @@
       animation: rotateXaxis 5s 1 linear;
       animation: rotateYaxis 5s 2s infinite linear;
       box-shadow: 0px 0px 5px black;  
+        
     }
 
     .cube-face {

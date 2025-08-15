@@ -22,7 +22,73 @@
       margin-left: 700px;
       float: right;
     }
-    
+    /* Base styles (for desktop first) */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+/* Make profile box visible */
+.profile-box {
+  visibility: visible !important;
+  max-width: 500px;
+}
+
+/* Mobile-friendly adjustments */
+@media only screen and (max-width: 768px) {
+  body {
+    overflow: auto;
+  }
+
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-box,
+  .social-icons,
+  #digipin,
+  img,
+  .support-box {
+    position: static !important;
+    margin: 10px auto;
+    float: none;
+    width: 90% !important;
+    transform: none !important;
+    scale: 1 !important;
+  }
+
+  .social-icons {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #digipin {
+    width: 200px;
+    height: auto;
+  }
+
+  .support-box {
+    background: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+}
+
   </style>
 </head>
 <body oncontextmenu="return false" onselectstart="return false">
@@ -113,6 +179,7 @@
   
 </body>
 </html>
+
 
 
 

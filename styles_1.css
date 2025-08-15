@@ -1,0 +1,132 @@
+/* Reset default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+  }
+  
+  /* Full-page layout using Grid */
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      "nav nav"
+      "main sidebar"
+      "footer footer";
+    grid-template-columns: 80% 20%;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+  }
+  
+  /* Assigning grid areas */
+  .nav {
+    grid-area: nav;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .main {
+    grid-area: main;
+    background-color: #f0f0f0;
+    padding: 1rem;
+  }
+  
+  .sidebar {
+    grid-area: sidebar;
+    background-color: #e0e0e0;
+    padding: 1rem;
+  }
+  
+  .footer {
+    grid-area: footer;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  .fab{
+    width:40px;
+    padding-left:5px;
+    padding-right:5px;
+    background:grey;
+    border-radius:5px;
+    border: 1px outset black;
+  }
+  .fa-facebook{
+
+  }
+  .fa-instagram{
+
+  }
+  .fa-twitter{
+
+  }
+  .fa-youtube{
+
+  }
+
+  
+  
+  
+  .nav ul a {
+    border: 1px solid salmon;
+    color:white;
+    border: 1px solid white;
+    padding: 5px 15px;
+    width: 100px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .main_nav{
+    display: inline;
+  }
+  .sub_nav{
+    display: block;
+    margin-top: 20px;
+    margin-left: 750px;
+    
+  }
+  .nav ul a:hover{
+    font-weight: bold;
+    background-color: orange;
+    color: black;
+  }
+  #upi{
+    font-family: 'Courier New', Courier, monospace;
+  }
+  #upi img
+  {
+    width: 75%;
+  }
+  #profile_pic{
+    width: 120%;
+  }
+
+  /*mobile*/
+
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-areas:
+        "nav"
+        "main"
+        "sidebar"
+        "footer";
+      grid-template-columns: auto auto 200px auto;
+    }
+    .sidebar {
+            /* also reduce content padding if needed */
+            padding: 0.5rem;
+      }
+    #profile_pic{
+        
+    }
+    #upi{
+        
+        transform: scale(0.5);
+        
+    }
+    
+  }
+  

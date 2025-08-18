@@ -55,25 +55,25 @@
     color: white;
   }
   .fa-facebook{
-   background: black;
+   background: transparent;
    border: 1px solid white;
    padding-top:5px;
    padding-bottom: 5px;
   }
   .fa-instagram{
-   background: black;
+   background: transparent;
    border: 1px solid white;
    padding-top:5px;
    padding-bottom: 5px;
   }
   .fa-twitter{
-   background: black;
+   background: transparent;
    border: 1px solid white;
    padding-top:5px;
    padding-bottom: 5px;
   }
   .fa-youtube{
-   background: black;
+   background: transparent;
    border: 1px solid white;
    padding-top:5px;
    padding-bottom: 5px;
@@ -178,6 +178,7 @@
   }
 
   
+
 
 
 

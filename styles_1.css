@@ -54,6 +54,7 @@
     border: 1px outset black;
     color: white;
     box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    text-shadow: 0px 0px 2px black;
   }
   .fa-facebook{
    background: transparent;
@@ -179,6 +180,7 @@
   }
 
   
+
 
 
 

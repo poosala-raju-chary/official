@@ -57,14 +57,14 @@
     text-shadow: 0px 0px 2px black;
   }
   .fa-facebook{
-   background: transparent;
+   background: white;
    border: 1px solid white;
    padding-top:5px;
    padding-bottom: 5px;
    color: #1877f2;
   }
   .fa-instagram{
-   background: transparent;
+   background: white;
    border: 1px solid white;
    padding-top:5px;
    padding-bottom: 5px;
@@ -72,13 +72,13 @@
    text-shadow: 0px 0px 2px transparent;
   }
   .fa-twitter{
-   background: transparent;
+   background: white;
    border: 1px solid white;
    padding-top:5px;
    padding-bottom: 5px;
   }
   .fa-youtube{
-   background: transparent;
+   background: white;
    border: 1px solid white;
    padding-top:5px;
    padding-bottom: 5px;
@@ -184,6 +184,7 @@
   }
 
   
+
 
 
 

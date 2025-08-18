@@ -52,6 +52,7 @@
     background:grey;
     border-radius:5px;
     border: 1px outset black;
+    color: white;
   }
   .fa-facebook{
    background: black;
@@ -172,5 +173,6 @@
   }
 
   
+
 
 

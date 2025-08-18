@@ -61,12 +61,14 @@
    border: 1px solid white;
    padding-top:5px;
    padding-bottom: 5px;
+   color: #1877f2;
   }
   .fa-instagram{
    background: transparent;
    border: 1px solid white;
    padding-top:5px;
    padding-bottom: 5px;
+   color: #833ab4;
   }
   .fa-twitter{
    background: transparent;
@@ -79,6 +81,7 @@
    border: 1px solid white;
    padding-top:5px;
    padding-bottom: 5px;
+   color: #ff0000;
   }
 /*Hover effects*/
 .fa-facebook:hover{
@@ -180,6 +183,7 @@
   }
 
   
+
 
 
 

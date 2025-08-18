@@ -77,7 +77,36 @@
    padding-top:5px;
    padding-bottom: 5px;
   }
-
+/*Hover effects*/
+.fa-facebook:hover{
+   background: orange;
+   color: black;
+   border: 1px solid white;
+   padding-top:5px;
+   padding-bottom: 5px;
+  }
+  .fa-instagram:hover{
+   background: orange;
+   color: black;
+   border: 1px solid white;
+   padding-top:5px;
+   padding-bottom: 5px;
+  }
+  .fa-twitter:hover{
+   background: orange;
+   color: black;
+   border: 1px solid white;
+   padding-top:5px;
+   padding-bottom: 5px;
+  }
+  .fa-youtube:hover{
+   background: orange;
+   color: black;
+   border: 1px solid white;
+   padding-top:5px;
+   padding-bottom: 5px;
+  }
+/*Hover effects end*/
   
   
   
@@ -143,4 +172,5 @@
   }
 
   
+
 

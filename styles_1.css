@@ -54,16 +54,28 @@
     border: 1px outset black;
   }
   .fa-facebook{
-
+   background: black;
+   border: 1px solid white;
+   padding-top:5px;
+   padding-bottom: 5px;
   }
   .fa-instagram{
-
+   background: black;
+   border: 1px solid white;
+   padding-top:5px;
+   padding-bottom: 5px;
   }
   .fa-twitter{
-
+   background: black;
+   border: 1px solid white;
+   padding-top:5px;
+   padding-bottom: 5px;
   }
   .fa-youtube{
-
+   background: black;
+   border: 1px solid white;
+   padding-top:5px;
+   padding-bottom: 5px;
   }
 
   
@@ -131,3 +143,4 @@
   }
 
   
+

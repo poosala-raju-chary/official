@@ -1,17 +1,17 @@
 .slideshow-container {
-  width: 800px;
-  height: 500px;
+  width: 200px;
+  height: 550px;
   background: yellow;
 }
 
 .slides-wrapper {
   display: flex;
-  width: 2400px; /* 800px * 3 slides */
+  width: 600px; /* 200px * 3 slides */
   transition: transform 0.5s ease-in-out;
 }
 
 .slide {
-  width: 800px;
+  width: 200px;
   flex-shrink: 0;
 }
 

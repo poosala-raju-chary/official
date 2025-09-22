@@ -2,7 +2,7 @@
   width: 200px;
   height: 500px;
   overflow: hidden;
-  margin: 0px;
+  margin: -40px;
   position: relative;
   border:1px solid red;
 }

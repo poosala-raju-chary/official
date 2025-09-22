@@ -4,6 +4,7 @@
   overflow: hidden;
   margin: auto;
   position: absolute;
+  left:0px;
 }
 
 .slides-wrapper {

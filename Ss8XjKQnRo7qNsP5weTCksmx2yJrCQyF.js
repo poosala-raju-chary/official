@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  alert('hi');
   let currentIndex = 0;
   const slideWidth = 800;
   const totalSlides = $('.slide').length;

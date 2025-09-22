@@ -1,7 +1,7 @@
 $(document).ready(function() {
   alert('hi');
   let currentIndex = 0;
-  const slideWidth = 800;
+  const slideWidth = 200;
   const totalSlides = $('.slide').length;
   let slideInterval;
 
@@ -15,7 +15,7 @@ $(document).ready(function() {
   }
 
   function startSlideshow() {
-    slideInterval = setInterval(nextSlide, 3000);
+    slideInterval = setInterval(nextSlide, 7000);
   }
 
   function stopSlideshow() {

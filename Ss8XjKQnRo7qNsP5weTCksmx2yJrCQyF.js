@@ -1,7 +1,7 @@
 $(document).ready(function() {
   //alert('hi');
   let currentIndex = 0;
-  const slideWidth = 200;
+  const slideWidth = 220;
   const totalSlides = $('.slide').length;
   let slideInterval;
 

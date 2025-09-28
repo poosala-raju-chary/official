@@ -1,7 +1,9 @@
 function runDeviceSpecificCode() {
     if ($(window).width() <= 768) {
         //console.log("Mobile");
-        
+        $('#ad1').attr('src', 'binkit_landscape.jpg');
+        $('#ad2').attr('src', 'dominos_landscape.jpg');
+        $('#ad3').attr('src', 'swiggy.jpg');
     } else {
         //console.log("Desktop");
         //alert('hi');

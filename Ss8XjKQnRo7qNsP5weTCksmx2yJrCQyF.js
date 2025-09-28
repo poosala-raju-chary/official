@@ -4,7 +4,64 @@ function runDeviceSpecificCode() {
         $('#ad1').attr('src', 'binkit_landscape.jpg');
         $('#ad2').attr('src', 'dominos_landscape.jpg');
         $('#ad3').attr('src', 'swiggy.jpg');
-    } else {
+        let currentIndex = 0;
+  const slideHeight = 200;
+  const totalSlides = $('.slide').length;
+  let slideInterval;
+
+  function goToSlide(index) {
+    $('.slides-wrapper').css('transform', `translateY(-${index * slideHeight}px)`);
+  }
+
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % totalSlides;
+    goToSlide(currentIndex);
+  }
+
+  function startSlideshow() {
+    slideInterval = setInterval(nextSlide, 3000);
+  }
+
+  function stopSlideshow() {
+    clearInterval(slideInterval);
+  }
+
+  startSlideshow();
+
+  $('.slideshow-container')
+    .mouseenter(stopSlideshow)
+    .mouseleave(startSlideshow);
+
+  // Swipe gestures
+  let touchStartY = 0;
+  let touchEndY = 0;
+
+  $('.slideshow-container').on('touchstart', function(e) {
+    touchStartY = e.originalEvent.touches[0].clientY;
+  });
+
+  $('.slideshow-container').on('touchend', function(e) {
+    touchEndY = e.originalEvent.changedTouches[0].clientY;
+    if (touchEndY < touchStartY - 50) {
+      nextSlide(); // Swipe up
+    } else if (touchEndY > touchStartY + 50) {
+      currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+      goToSlide(currentIndex); // Swipe down
+    }
+  });
+
+  // Keyboard navigation
+  $(document).on('keydown', function(e) {
+    if (e.key === 'ArrowDown') {
+      nextSlide();
+    } else if (e.key === 'ArrowUp') {
+      currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+      goToSlide(currentIndex);
+    }
+  });
+    } 
+    
+    else {
         //console.log("Desktop");
         //alert('hi');
   let currentIndex = 0;
@@ -40,8 +97,3 @@ function runDeviceSpecificCode() {
 $(document).ready(runDeviceSpecificCode);
 $(window).resize(runDeviceSpecificCode);
 
-
-
-$(document).ready(function() {
-  
-});

@@ -4,6 +4,9 @@ function runDeviceSpecificCode() {
         $('#ad1').attr('src', 'binkit_landscape.jpg');
         $('#ad2').attr('src', 'dominos_landscape.jpg');
         $('#ad3').attr('src', 'swiggy.jpg');
+        $('#ad_page').css('background-image', 'url("AD_PAGE_landscape.jpg")');
+        
+        
         let currentIndex = 0;
   const slideHeight = 200;
   const totalSlides = $('.slide').length;

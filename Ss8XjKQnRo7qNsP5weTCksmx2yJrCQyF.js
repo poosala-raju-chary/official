@@ -1,5 +1,10 @@
-$(document).ready(function() {
-  //alert('hi');
+function runDeviceSpecificCode() {
+    if ($(window).width() <= 768) {
+        //console.log("Mobile");
+        
+    } else {
+        //console.log("Desktop");
+        //alert('hi');
   let currentIndex = 0;
   const slideWidth = 220;
   const totalSlides = $('.slide').length;
@@ -27,4 +32,14 @@ $(document).ready(function() {
 
   // Pause on hover
   $('.slideshow-container').mouseenter(stopSlideshow).mouseleave(startSlideshow);
+    }
+}
+
+$(document).ready(runDeviceSpecificCode);
+$(window).resize(runDeviceSpecificCode);
+
+
+
+$(document).ready(function() {
+  
 });

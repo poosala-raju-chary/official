@@ -154,6 +154,11 @@
   a{
     color: black;
   }
+/*advertisement*/
+  #ad{width:200px;height:630px;border:1px solid black;padding:10px;background:white;}
+  
+  #ad_page{background-image:url("AD_PAGE.jpg");width:200px;height:550px;margin-top:50px;}
+
 /*slides */
   .slideshow-container {
   width: 220px;
@@ -207,7 +212,11 @@
       a{
     color: black;
   }
-    
+    /*advertisement*/
+  #ad{width:500px;height:200px;border:1px solid black;padding:10px;background:white;}
+  
+  #ad_page{background-image:url("AD_PAGE_landscape.jpg");width:500px;height:200px;margin-top:50px;}
+      
    /* slides mobile */   
   .slideshow-container {
   width: 500px;
@@ -242,6 +251,7 @@
   }
 
   
+
 
 
 

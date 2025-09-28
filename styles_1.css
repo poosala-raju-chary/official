@@ -241,6 +241,7 @@
   height: 200px;
   width:700px;
   flex-shrink: 0;
+  background:red;
 }
 
 .slide img {
@@ -253,6 +254,7 @@
   }
 
   
+
 
 
 

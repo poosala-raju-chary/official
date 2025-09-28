@@ -223,7 +223,7 @@
   .slideshow-container {
   width: 700px;
   height: 200px;
-  overflow: hidden;
+  overflow: visible;
   margin-left: 0px;
   position: relative;
   border:1px solid blue;
@@ -260,6 +260,7 @@
   }
 
   
+
 
 
 

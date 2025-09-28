@@ -247,13 +247,14 @@
 .slide img {
   width: 60%;
   height: 60%;
-  object-fit: cover;
+  /*object-fit: cover;*/
 }
     
     
   }
 
   
+
 
 
 

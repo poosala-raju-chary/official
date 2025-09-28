@@ -201,12 +201,13 @@
     }
     #upi{
         
-        transform: scale(0.5);
+        transform: scale(0.2);
         
     }
       a{
     color: black;
   }
+    
    /* slides mobile */   
   .slideshow-container {
   width: 500px;
@@ -241,6 +242,7 @@
   }
 
   
+
 
 
 

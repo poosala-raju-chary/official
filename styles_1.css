@@ -247,15 +247,14 @@
 .slide img {
   width: 100%;
   height: 100%;
-  transform: ScaleX(0.7);
-  transform: ScaleY(0.7);
-  /*object-fit: cover;*/
+  object-fit: cover;
 }
     
     
   }
 
   
+
 
 
 

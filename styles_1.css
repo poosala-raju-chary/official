@@ -212,8 +212,9 @@
   width: 500px;
   height: 200px;
   overflow: hidden;
-  margin: auto;
+  margin-left: 0px;
   position: relative;
+  border:1px solid blue;
 }
 
 .slides-wrapper {
@@ -240,6 +241,7 @@
   }
 
   
+
 
 
 

@@ -212,19 +212,19 @@
   width: 500px;
   height: 200px;
   overflow: hidden;
-  margin-left: 0px;
+  margin: auto;
   position: relative;
-  border:1px solid red;
 }
 
 .slides-wrapper {
   display: flex;
-  height: 600px; /* 200px * 3 slides */
+  flex-direction: column; /* Stack slides vertically */
+  height: calc(200px * 3); /* Adjust based on number of slides */
   transition: transform 0.5s ease-in-out;
 }
 
 .slide {
-  width: 200px;
+  height: 200px;
   flex-shrink: 0;
 }
 
@@ -238,6 +238,7 @@
   }
 
   
+
 
 
 

@@ -207,8 +207,8 @@
     }
     #upi{
         position:absolute;
-        margin-top:0px;
-        margin-left:0px;
+        margin-top:-100px;
+        margin-left:-100px;
         transform: scale(0.35);
         font-size: 17pt;
         
@@ -217,7 +217,7 @@
     color: black;
   }
     /*advertisement*/
-  #ad{width:700px;height:230px;border:1px solid black;background:white;margin-left:170px;}
+  #ad{width:700px;height:230px;border:1px solid black;background:white;margin-left:270px;}
   
   #ad_page{background-image:url("AD_PAGE_landscape.jpg");width:700px;height:200px;margin-top:0px;margin-left:0px;}
       
@@ -226,7 +226,7 @@
   width: 700px;
   height: 200px;
   overflow: hidden;
-  margin-left:170px;
+  margin-left:270px;
   position: relative;
   border:1px solid blue;
 }
@@ -262,6 +262,7 @@
   }
 
   
+
 
 
 

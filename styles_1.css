@@ -209,8 +209,8 @@
         position:absolute;
         margin-top:0px;
         margin-left:0px;
-        transform: scale(0.7);
-        font-size: 7pt;
+        transform: scale(0.35);
+        font-size: 17pt;
         
     }
       a{
@@ -262,6 +262,7 @@
   }
 
   
+
 
 
 

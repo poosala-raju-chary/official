@@ -143,8 +143,7 @@
   }
   #upi{
     font-family: 'Courier New', Courier, monospace;
-    position: relative;
-    margin-left:0px;
+    
   }
   #upi img
   {
@@ -188,7 +187,7 @@
   object-fit: cover;
 }
 
-  /*mobile*/
+  /*--------------------------------------------------mobile--------------------------------------------------------*/
 
   @media (max-width: 768px) {
     .grid-container {
@@ -209,15 +208,16 @@
     #upi{
         position:absolute;
         margin-top:0px;
-        margin-left:700px;
+        margin-left:0px;
         transform: scale(1.7);
+        
         
     }
       a{
     color: black;
   }
     /*advertisement*/
-  #ad{width:700px;height:230px;border:1px solid black;background:white;margin-left:100px;}
+  #ad{width:700px;height:230px;border:1px solid black;background:white;margin-left:170px;}
   
   #ad_page{background-image:url("AD_PAGE_landscape.jpg");width:700px;height:200px;margin-top:0px;margin-left:0px;}
       
@@ -226,7 +226,7 @@
   width: 700px;
   height: 200px;
   overflow: hidden;
-  margin-left:100px;
+  margin-left:170px;
   position: relative;
   border:1px solid blue;
 }
@@ -262,6 +262,7 @@
   }
 
   
+
 
 
 

@@ -217,7 +217,7 @@
     color: black;
   }
     /*advertisement*/
-  #ad{width:700px;height:200px;border:1px solid black;background:white;}
+  #ad{width:700px;height:230px;border:1px solid black;background:white;}
   
   #ad_page{background-image:url("AD_PAGE_landscape.jpg");width:700px;height:200px;margin-top:0px;margin-left:100px;}
       
@@ -262,6 +262,7 @@
   }
 
   
+
 
 
 

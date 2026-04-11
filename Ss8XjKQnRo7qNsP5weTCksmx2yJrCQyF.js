@@ -1,9 +1,9 @@
 function runDeviceSpecificCode() {
     if ($(window).width() <= 768) {
         //console.log("Mobile");
-        $('#ad1').attr('src', 'binkit_landscape.jpg');
-        $('#ad2').attr('src', 'dominos_landscape.jpg');
-        $('#ad3').attr('src', 'swiggy.jpg');
+        $('#ad1').attr('src', 'binkit_landscape_1.jpg');
+        $('#ad2').attr('src', 'dominos_landscape_1.jpg');
+        $('#ad3').attr('src', 'swiggy_1.jpg');
         //$('#ad_page').css('background-image', 'url("AD_PAGE_landscape.jpg")');
         
         
